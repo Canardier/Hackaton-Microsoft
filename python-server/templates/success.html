@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recoco</title>
+  </head>
+  
+  <body>
+    
+    <h1>Face Recon</h1>
+    <br>
+    <h2>Similar faces found!!</h2>
+    
+    <ul>
+      <h3>Face searched</h3>
+      <img src={{ url_for('static', filename = src) }} width="300" height="300">
+    </ul>
+
+    <ul>
+      <h3>Result found</h3>
+      {% for name in list %}
+      <img src={{ url_for('static', filename = name) }} width="300" height="210">
+      {% endfor %}
+    </ul>
+        
+  </body>
+</html>
