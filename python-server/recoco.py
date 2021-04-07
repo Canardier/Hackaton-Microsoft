@@ -8,11 +8,11 @@ import os
 def auth():
     l = []
     k = []
-    k.append("61a391e8089141418aaa90f9075c361f")
-    k.append("e7f9476d700c47fcb6ffc7077005eb9d")
-    k.append("f2649740957d47ecb1aa5d1b9a6baf8a")
-    k.append("e8c7ef8d4c8b466485bec94798b84976")
-    k.append("695adba5511f47f4bddc65282595862a")
+    k.append("your-key")
+    k.append("your-key")
+    k.append("your-key")
+    k.append("your-key")
+    k.append("your-key")
     endpoint = "https://southcentralus.api.cognitive.microsoft.com/"
 
     for i in range(0, 5):
